@@ -1,5 +1,5 @@
-# Data-Science-Projects
-# Tweet Sentiment Analysis - Jupyter Notebook Style
+#Tweet Sentiment Analysis
+ - Jupyter Notebook Style
 
 # 📦 Step 1: Import Libraries
 import pandas as pd
