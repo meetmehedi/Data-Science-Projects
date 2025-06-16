@@ -53,17 +53,17 @@ plt.title('Confusion Matrix')
 plt.show()
 
 # 💾 Step 8: Save Model and Vectorizer
-pickle.dump(model, open("sentiment_model.pkl", "wb"))
-pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
+-pickle.dump(model, open("sentiment_model.pkl", "wb"))
+-pickle.dump(vectorizer, open("vectorizer.pkl", "wb"))
 
 # 📈 Model Performance
 # ✅ Accuracy: 75%
 
 # 💡 Suggestions for Improvement:
-# 1. Try Logistic Regression, Random Forest, or XGBoost for better accuracy.
-# 2. Use GridSearchCV to tune TF-IDF vectorizer (ngram_range, max_df, min_df).
-# 3. Apply advanced preprocessing (lemmatization with spaCy, emoji/text normalization).
-# 4. Integrate a simple Streamlit UI for real-time tweet input and prediction.
-# 5. Experiment with BERT or Transformer-based models for state-of-the-art results.
-# 6. Deploy using Flask API and host on Render, Hugging Face, or Vercel.
+ 1. Try Logistic Regression, Random Forest, or XGBoost for better accuracy.
+ 2. Use GridSearchCV to tune TF-IDF vectorizer (ngram_range, max_df, min_df).
+ 3. Apply advanced preprocessing (lemmatization with spaCy, emoji/text normalization).
+ 4. Integrate a simple Streamlit UI for real-time tweet input and prediction.
+ 5. Experiment with BERT or Transformer-based models for state-of-the-art results.
+ 6. Deploy using Flask API and host on Render, Hugging Face, or Vercel.
 
